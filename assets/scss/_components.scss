@@ -1,0 +1,88 @@
+// buttons, navbars, cards etc.
+
+nav {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row wrap;
+
+    ul {
+        display: flex;
+        flex-direction: row wrap;
+        justify-content: space-between;
+        list-style: none;
+        width: 100%;
+        font-size: 1.5rem;
+        color: white;
+    }
+}
+
+header {
+    form {
+        flex: 1 1 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 0.3rem;
+
+        i {
+            color: white;
+            margin-right: 1rem;
+        }
+
+        input {
+            flex: 1 1 auto;
+            height: 100%;
+            border: none;
+            background: rgba(255, 255, 255, 0);
+            color: white;
+            font-size: 1.125rem;
+        }
+
+        input::placeholder {
+            color: white;
+            opacity: 0.5;
+            font-size: 1rem;
+        }
+
+        input:focus {
+            outline: none;
+        }
+    }
+}
+
+// classes
+.artigo {
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 10px 0px rgba(19, 19, 31, 0.2);
+}
+
+.headerArtigo {
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 2rem;
+
+    p {
+        font-size: 1rem;
+        color: #717171;
+    }
+
+    i {
+        color: #574AE8;
+    }
+}
+
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.5rem;
+}

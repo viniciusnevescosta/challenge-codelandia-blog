@@ -1,0 +1,23 @@
+// container and any grid systems.
+body {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+header {
+    flex: 1 1 15rem;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 2rem 15rem 2rem 15rem;
+    gap: 5rem;
+    background: linear-gradient(88.27deg, #574AE8, #3EA1DB);
+}
+
+main {
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 5rem 15rem 5rem 15rem;
+    min-height: 100vh;
+    gap: 4rem;
+}
