@@ -34,6 +34,7 @@ header {
         input {
             flex: 1 1 auto;
             height: 100%;
+            padding-right: 3rem;
             border: none;
             background: rgba(255, 255, 255, 0);
             color: white;
@@ -52,15 +53,47 @@ header {
     }
 }
 
+button {
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.3rem;
+    background: linear-gradient(88.27deg, #574AE8, #3EA1DB);
+    box-shadow: 0px 0px 10px 0px rgba(19, 19, 31, 0.2);
+
+    &:hover {
+        cursor: pointer;
+        background: linear-gradient(88.27deg, #5C4EF5, #41ABE8);
+    }
+
+    &:active {
+        cursor: pointer;
+        background: linear-gradient(88.27deg, #4E42CF, #368FC2);
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    i {
+        color: white;
+    }    
+}
+
 // classes
 .artigo {
     flex: 1 1 auto;
     display: flex;
     flex-flow: column wrap;
+    width: 100%;
     padding: 1rem;
     gap: 1rem;
     border-radius: 0.3rem;
     box-shadow: 0px 0px 10px 0px rgba(19, 19, 31, 0.2);
+
+    h1 {
+        font-size: 1.6rem;
+    }
 }
 
 .headerArtigo {
@@ -85,4 +118,71 @@ header {
     display: flex;
     flex-flow: column wrap;
     gap: 0.5rem;
+}
+
+// layout
+.modal-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,.5);
+    z-index: 3000;
+
+    .modal {
+        flex: 1 1 auto;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        min-height: 30rem;
+        background-color: white;
+        padding: 1.5rem;
+        margin: 5rem 15rem 5rem 15rem;
+        gap: 1em;
+
+        .headerModal {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        form {
+            display: flex;
+            flex-flow: column wrap;
+            width: 100%;
+            gap: 1rem;
+        }
+
+        input {
+            border: none;
+            height: 3rem;
+            width: 100%;
+            border-radius: 0.3rem;
+            padding: 1rem;
+            background-color: #e2eafc;
+            font-size: 1rem;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .footerModal {
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            gap: 1rem;
+            width: 100%;
+
+            p {
+                display: none;
+                color: #4E42CF;
+                font-size: 1.2rem;
+            }
+        }
+    }
 }

@@ -10,3 +10,22 @@
 body {
   font-family: 'Lexend Deca', sans-serif;
 }
+
+i {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #3EA1DB;
+
+  &:active {
+    color: #3EA1DB;
+  }
+
+  &:visited {
+    color: #3EA1DB;
+  }
+}

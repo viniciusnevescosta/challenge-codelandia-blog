@@ -17,7 +17,15 @@ main {
     flex: 1 1 auto;
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
     margin: 5rem 15rem 5rem 15rem;
-    min-height: 100vh;
     gap: 4rem;
+}
+
+footer {
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5rem 15rem 5rem 15rem;
 }

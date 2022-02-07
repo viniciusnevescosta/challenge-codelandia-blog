@@ -27,69 +27,52 @@
     </header>
 
     <main>
+        <button id="create">
+            <i class="ri-file-edit-line ri-2x"></i>
+        </button>
         <div class="artigo">
             <div class="headerArtigo">
-                <div class="data">
+                <div>
                     <p>02 de jul, 2021</p>
                 </div>
-                <div class="buttons">
+                <div>
                     <i class="ri-heart-line ri-2x"></i>
                     <i class="ri-delete-bin-line ri-2x"></i>
                 </div>
             </div>
             <div class="content">
-                <h1>Agora é oficial: o Windows 11 está vindo</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
-            </div>
-        </div>
-        <div class="artigo">
-            <div class="headerArtigo">
-                <div class="data">
-                    <p>02 de jul, 2021</p>
-                </div>
-                <div class="buttons">
-                    <i class="ri-heart-line ri-2x"></i>
-                    <i class="ri-delete-bin-line ri-2x"></i>
-                </div>
-            </div>
-            <div class="content">
-                <h1>Tim Berners-Lee vai leiloar código-fonte da web</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</p>
-            </div>
-        </div>
-        <div class="artigo">
-            <div class="headerArtigo">
-                <div class="data">
-                    <p>02 de jul, 2021</p>
-                </div>
-                <div class="buttons">
-                    <i class="ri-heart-line ri-2x"></i>
-                    <i class="ri-delete-bin-line ri-2x"></i>
-                </div>
-            </div>
-            <div class="content">
-                <h1>Tem Firefox novo no pedaço e você vai querer migrar</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est.</p>
-            </div>
-        </div>
-        <div class="artigo">
-            <div class="headerArtigo">
-                <div class="data">
-                    <p>02 de jul, 2021</p>
-                </div>
-                <div class="buttons">
-                    <i class="ri-heart-line ri-2x"></i>
-                    <i class="ri-delete-bin-line ri-2x"></i>
-                </div>
-            </div>
-            <div class="content">
-                <h1>John McAfee, criador do antivírus McAfee, morre</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</p>
+                <h1>Como funciona o blog Codelândia: Seu blog pessoal!</h1>
+                <p>Esse post tem o objetivo de te informar como funciona esse blog 😀. Ao clicar no botão acima abrirá um menu onde você pode inserir o título do post e o contéudo do mesmo, certifique-se de que os campos estejam preenchidos! Ao apertar enter você terá seu blog criado, fácil né 😇? Você também pode favoritar seus post preferidos e excluir se não gostar de algum (essa ação é para sempre, cuidado!).</p>
             </div>
         </div>
     </main>
+
+    <footer>
+        <a href="https://vinicius-costa-links.vercel.app/" target="_blank" rel="noreferrer noopener">© By Vinícius Costa. 2022</a>
+    </footer>
+
+    <div class="modal-container">
+        <div class="modal">
+            <div class="headerModal">
+                <h1>Novo artigo</h1>
+                <i class="ri-close-line ri-2x" id="close"></i>
+            </div>
+            <form>
+                <span>Título</span>
+                <input id="title" type="text" placeholder="Digite o título...">
+                <span>Conteúdo</span>
+                <input id="content" type="text" placeholder="Escreva o conteúdo...">
+                <div class="footerModal">
+                    <button type='submit' id="submit">
+                        <i class="ri-article-line ri-2x"></i>
+                    </button>
+                    <p id="warn"></p>
+                </div>
+            </form>
+        </div>
+    </div>
     
-    <script src="/assets/js/main.js"></script>
+    <script type="text/javascript" src="/assets/js/main.js" defer></script>
     <noscript>Seu browser não suporta o uso de scripts!</noscript>
 </body>
 </html>
