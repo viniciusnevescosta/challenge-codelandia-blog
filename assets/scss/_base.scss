@@ -29,3 +29,9 @@ a {
     color: #3EA1DB;
   }
 }
+
+@mixin flexLayout($parametro, $orientacao) {
+  flex: 1 1 $parametro;
+  display: flex;
+  flex-flow: $orientacao wrap;
+}

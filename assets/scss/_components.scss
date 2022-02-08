@@ -1,13 +1,10 @@
 // buttons, navbars, cards etc.
 
 nav {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: row wrap;
+    @include flexLayout(auto, row);
 
     ul {
-        display: flex;
-        flex-direction: row wrap;
+        @include flexLayout(auto, row);
         justify-content: space-between;
         list-style: none;
         width: 100%;
@@ -18,8 +15,7 @@ nav {
 
 header {
     form {
-        flex: 1 1 4rem;
-        display: flex;
+        @include flexLayout(4rem, row);
         justify-content: center;
         align-items: center;
         padding: 1rem;
@@ -82,7 +78,6 @@ button {
 
 // classes
 .artigo {
-    flex: 1 1 auto;
     display: flex;
     flex-flow: column wrap;
     width: 100%;
@@ -97,9 +92,7 @@ button {
 }
 
 .headerArtigo {
-    flex: 1 1 auto;
-    display: flex;
-    flex-flow: row wrap;
+    @include flexLayout(auto, row);
     align-items: center;
     justify-content: space-between;
     max-height: 2rem;
@@ -134,9 +127,7 @@ button {
     z-index: 3000;
 
     .modal {
-        flex: 1 1 auto;
-        display: flex;
-        flex-flow: column wrap;
+        @include flexLayout(auto, column);
         justify-content: center;
         min-height: 30rem;
         background-color: white;
