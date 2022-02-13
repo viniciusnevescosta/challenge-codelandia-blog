@@ -1,20 +1,5 @@
 "use strict";
 
-// LIKE POST TUTURIAL
-let heart = document.querySelector('.ri-heart-line');
-
-heart.addEventListener('click', () => {
-    let classe = heart.classList.contains('ri-heart-line');
-    if(classe === true) {
-        heart.classList.remove('ri-heart-line', 'ri-2x');
-        heart.classList.add('ri-heart-fill', 'ri-2x');           
-    } else {
-        heart.classList.remove('ri-heart-fill', 'ri-2x');
-        heart.classList.add('ri-heart-line', 'ri-2x');
-    };
-})
-
-
 // MODAL
 let btnCreate = document.querySelector('#create');
 let modal = document.querySelector('.modal-container');

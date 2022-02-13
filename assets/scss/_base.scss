@@ -1,6 +1,7 @@
 // resets, variables, mixins, and any utility classes.
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
+// html
 * {
   margin: 0;
   padding: 0;
@@ -30,8 +31,30 @@ a {
   }
 }
 
-@mixin flexLayout($parametro, $orientacao) {
-  flex: 1 1 $parametro;
+// selection
+::selection {
+  color: #B5D8FD;
+  background: #4048B8;
+}
+
+// scrollbar
+::-webkit-scrollbar {
+  width: 0.5rem;
+  padding: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #368FC2;
+
+  &:hover {
+      background-color: #2C729C;
+  }
+}
+
+// mixins
+@mixin flexLayout($var1, $var2) {
+  flex: 1 1 $var1;
   display: flex;
-  flex-flow: $orientacao wrap;
+  flex-flow: $var2 wrap;
 }

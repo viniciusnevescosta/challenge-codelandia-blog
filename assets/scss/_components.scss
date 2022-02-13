@@ -11,6 +11,24 @@ nav {
         font-size: 1.5rem;
         color: white;
     }
+
+    @include mobile {
+        ul {
+            font-size: 1.125rem !important;
+        }
+    }
+
+    @include tablet {
+        ul {
+            font-size: 1.125rem !important;
+        }
+    }
+
+    @include laptop {
+        ul {
+            font-size: 1.125rem !important;
+        }
+    }
 }
 
 header {
@@ -21,12 +39,12 @@ header {
         padding: 1rem;
         background: rgba(255, 255, 255, 0.2);
         border-radius: 0.3rem;
-
+    
         i {
             color: white;
             margin-right: 1rem;
         }
-
+    
         input {
             flex: 1 1 auto;
             height: 100%;
@@ -35,16 +53,64 @@ header {
             background: rgba(255, 255, 255, 0);
             color: white;
             font-size: 1.125rem;
+    
+            &::placeholder {
+                color: white;
+                opacity: 0.5;
+                font-size: 1rem;
+            }
+    
+            &:focus {
+                outline: none;
+            }
+        }
+    
+        @include mobile {
+            max-height: 2.5rem;
+            padding: 0.5rem;
+    
+            i {
+                font-size: 1rem !important;
+            }
+    
+            input {
+                font-size: 0.8rem;
+                &::placeholder {
+                    font-size: 0.8rem;
+                }
+            }
         }
 
-        input::placeholder {
-            color: white;
-            opacity: 0.5;
-            font-size: 1rem;
+        @include tablet {
+            max-height: 2.5rem;
+            padding: 0.5rem;
+    
+            i {
+                font-size: 1rem !important;
+            }
+    
+            input {
+                font-size: 0.8rem;
+                &::placeholder {
+                    font-size: 0.8rem;
+                }
+            }
         }
 
-        input:focus {
-            outline: none;
+        @include laptop {
+            max-height: 2.5rem;
+            padding: 0.5rem;
+    
+            i {
+                font-size: 1rem !important;
+            }
+    
+            input {
+                font-size: 0.8rem;
+                &::placeholder {
+                    font-size: 0.8rem;
+                }
+            }
         }
     }
 }
@@ -73,7 +139,19 @@ button {
 
     i {
         color: white;
-    }    
+    }
+
+    @include mobile {
+        margin-bottom: 1rem;
+    }
+
+    @include tablet {
+        margin-bottom: 1rem;
+    }
+
+    @include laptop {
+        margin-bottom: 1rem;
+    }
 }
 
 // classes
@@ -88,6 +166,16 @@ button {
 
     h1 {
         font-size: 1.6rem;
+    }
+
+    @include mobile {
+        h1 {
+            font-size: 1.125rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
     }
 }
 
@@ -104,6 +192,16 @@ button {
 
     i {
         color: #574AE8;
+    }
+
+    @include mobile {
+        p {
+            font-size: 0.875rem;
+        }
+
+        i {
+            font-size: 1.5rem;
+        }
     }
 }
 
@@ -129,11 +227,11 @@ button {
     .modal {
         @include flexLayout(auto, column);
         justify-content: center;
-        min-height: 30rem;
         background-color: white;
         padding: 1.5rem;
         margin: 5rem 15rem 5rem 15rem;
-        gap: 1em;
+        border-radius: 0.3rem;
+        gap: 1rem;
 
         .headerModal {
             display: flex;
@@ -150,7 +248,7 @@ button {
 
         input {
             border: none;
-            height: 3rem;
+            max-height: 3rem;
             width: 100%;
             border-radius: 0.3rem;
             padding: 1rem;
@@ -159,6 +257,10 @@ button {
 
             &:focus {
                 outline: none;
+            }
+
+            &::placeholder {
+                color: black;
             }
         }
 
@@ -174,6 +276,37 @@ button {
                 color: #4E42CF;
                 font-size: 1.2rem;
             }
+        }
+
+        @include mobile {
+            margin: 3rem 1.5rem 3rem 1.5rem;
+            justify-content: start;
+
+            .headerModal {               
+                h1 {
+                    font-size: 1.125rem;
+                }
+            }
+
+            .footerModal {
+                button {
+                    margin-bottom: 0;
+                }
+
+                p {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+
+        @include tablet {
+            margin: 3rem 1.5rem 3rem 1.5rem;
+            justify-content: start;
+        }
+
+        @include laptop {
+            margin: 3rem 1.5rem 3rem 1.5rem;
+            justify-content: start;
         }
     }
 }
