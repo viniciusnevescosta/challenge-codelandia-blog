@@ -6,6 +6,10 @@
 - CSS3
 - JavaScript
 
+  - Local Starage
+  - JSON
+  - RegExp
+
 ### 💻 Project
 Codelândia: Your personal blog! Publish your articles with us. By clicking on the highlighted button, a modal will appear where you can enter the title and content of the post, make sure the fields are filled in! By pressing enter you will have your post published, easy right 😇? You can also bookmark your favorite posts. Good articles for you!
 
