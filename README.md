@@ -2,8 +2,7 @@
 
 ### 🚀 Technologies
 - HTML5
-- SCSS
-- CSS3
+- SASS
 - JavaScript
 
   - Local Starage
