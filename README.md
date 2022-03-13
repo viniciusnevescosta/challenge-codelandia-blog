@@ -4,9 +4,9 @@
   <img height="400em" src="assets/to_readme/thumbnail.png"
 </p>
 
-![GitHub language count](https://img.shields.io/github/languages/count/Jolonte/desafio3-onePage)
-![GitHub top language](https://img.shields.io/github/languages/top/Jolonte/desafio3-onePage)
-![GitHub license](https://img.shields.io/github/license/Jolonte/desafio3-onePage)
+![GitHub language count](https://img.shields.io/github/languages/count/Jolonte/desafio1-blog)
+![GitHub top language](https://img.shields.io/github/languages/top/Jolonte/desafio1-blog)
+![GitHub license](https://img.shields.io/github/license/Jolonte/desafio1-blog)
 
 ### 🚀 Technologies
 - HTML5
