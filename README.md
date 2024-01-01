@@ -18,6 +18,8 @@ Bem-vindo ao repositório do meu projeto "Simple Blog"! Aqui, desenvolvi um web 
 
 Este projeto faz parte do desafio da CodeLandia, onde busquei criar um blog simples com funcionalidades adicionais. A Local Storage é utilizada para armazenar os posts, permitindo uma experiência de usuário contínua, mesmo após a atualização da página.
 
+Além disso, criei o layout deste projeto com base em um desafio de web design no Figma. [Link de todos os desafios 'Codelândia'](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=624-2&mode=design&t=Trxmon2KQNwAqiIN-0).
+
 ## Tecnologias Utilizadas
 
 - **JavaScript:** A linguagem de programação principal para o desenvolvimento do web app.
@@ -43,7 +45,7 @@ Este projeto faz parte do desafio da CodeLandia, onde busquei criar um blog simp
 
 1. **Clone o Repositório:**
    ```bash
-   git clone https://github.com/viniciusnevescosta/challenge-codelandia-blog.git
+   git clone https://github.com/viniciusnevescosta/simple-blog.git
    ```
 
 2. **Abra o Arquivo HTML:**
