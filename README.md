@@ -1,6 +1,18 @@
 # Simple Blog
 
+![image](https://github.com/viniciusnevescosta/simple-blog/assets/66970818/201acf14-0f14-45d8-a4d7-f96d9ee60af4)
+
 Bem-vindo ao repositório do meu projeto "Simple Blog"! Aqui, desenvolvi um web app que serve como um diário de pequenas ideias, utilizando a Local Storage para salvar os posts publicados. Além disso, implementei expressões regulares para criar uma função de busca eficiente.
+
+- [Read in english](en_README.md)
+
+## Sumário de Conteúdos
+
+- [Visão Geral](#visão-geral)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Funcionalidades](#funcionalidades)
+- [Como Testar](#como-testar)
+- [Aprendizados Adquiridos](#aprendizados-adquiridos)
 
 ## Visão Geral
 
