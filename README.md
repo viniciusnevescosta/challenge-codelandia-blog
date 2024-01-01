@@ -43,9 +43,9 @@ Além disso, criei o layout deste projeto com base em um desafio de web design n
 
 ## Como Testar
 
-### Deploy
+### Online
 
-- [Simple Blog](https://desafio1-blog.vercel.app/)
+- [Deploy](https://desafio1-blog.vercel.app/)
 
 ### Localmente
 
