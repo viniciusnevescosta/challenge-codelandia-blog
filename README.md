@@ -43,6 +43,12 @@ Além disso, criei o layout deste projeto com base em um desafio de web design n
 
 ## Como Testar
 
+### Deploy
+
+- [Simple Blog](https://desafio1-blog.vercel.app/)
+
+### Localmente
+
 1. **Clone o Repositório:**
    ```bash
    git clone https://github.com/viniciusnevescosta/simple-blog.git
